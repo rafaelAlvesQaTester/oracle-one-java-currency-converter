@@ -65,7 +65,30 @@ Desenvolver uma aplicação back-end que:
 ---
 
 ## 🗂️ Estrutura do Projeto
-
+oracle-one-java-currency-converter/
+│
+├── src/
+│   └── br/
+│       └── com/
+│           └── conversor/
+│               ├── application/
+│               │   └── Main.java
+│               │
+│               ├── client/
+│               │   └── ExchangeRateApiClient.java
+│               │
+│               ├── service/
+│               │   └── ExchangeRateService.java
+│               │
+│               └── domain/
+│                   └── Currency.java
+│
+├── lib/
+│   └── gson-2.10.1.jar
+│
+├── config.properties
+├── .gitignore
+└── README.md
 
 ---
 
